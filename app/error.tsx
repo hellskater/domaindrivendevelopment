@@ -8,8 +8,10 @@ export default function Error({ error }: { error: Error; reset: () => void }) {
   }, [error]);
 
   return (
-    <div>
-      <p>Oops, something went wrong... Please refresh the page</p>
+    <div className="bg-black flex justify-center items-center h-[80vh] text-white italic">
+      <p className="text-center">
+        Oops, something went wrong... Please refresh the page
+      </p>
     </div>
   );
 }
