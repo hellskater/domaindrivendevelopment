@@ -10,3 +10,7 @@
 html {
   min-width: 360px;
 }
+
+em {
+  font-weight: bold;
+}
